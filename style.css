@@ -1,0 +1,227 @@
+:root{
+    --cor--principal: #FFF159;
+    --cor--ofertas: #3682fd;
+    --cor--valor: #2ca469;
+    --cor--valor-parc: #4db68a;
+    --cor--textos:#383838;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.primeiro img{
+    width: 10%;
+    
+}
+
+header {
+    background-color: var(--cor--principal);
+    
+    
+}
+
+.primeiro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.primeiro nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+}
+
+.pesquisar{
+    background-color: white;
+    width: 360px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+.pesquisar input{
+    border: none;
+    outline: none;
+    width: 500px;
+    background-color: transparent;
+}
+
+.pesquisar button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.segundo{
+    display: flex;
+    padding: 15px;
+    
+}
+
+.segundo button{
+    background-color: transparent;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px 38px;
+
+}
+
+.segundo p{
+    margin: 0px 38px; 
+}
+
+
+#ofertas{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#ofertas div{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80%;
+}
+
+main h3{
+    padding: 5px;
+    margin: 3px;
+}
+
+#ofertas div button{
+    background-color: var(--cor--ofertas);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+#ofertas div button:hover{
+    cursor: pointer;
+}
+
+#ofertas div .parcela{
+    color: var(--cor--valor-parc);
+}
+
+#ofertas div .preco{
+    font-size: 23px;
+}
+
+#ofertas div .nome{
+    color: black;
+    opacity: 0.6;
+}
+
+.desconto{
+    display: flex;
+    padding: 15px;
+    
+}
+
+.desconto button{
+    background-color: transparent;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px 20px;
+
+}
+
+.desconto p{
+    margin: 0px 50px; 
+    text-align: center;
+}
+
+#ofertas-do-dia h3{
+    text-align: center;
+}
+
+/* promoções */
+#promocoes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#promocoes div{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80%;
+}
+
+#promocoes div button{
+    background-color: var(--cor--ofertas);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+#promocoes div button:hover{
+    cursor: pointer;
+}
+
+#promocoes div .parcela{
+    color: var(--cor--valor-parc);
+}
+
+#promocoes div .preco{
+    font-size: 23px;
+}
+
+#promocoes div .nome{
+    color: black;
+    opacity: 0.6;
+}
+
+#promocoes div img{
+    width: 100%;
+}
+
+.link-ofertas{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.link-ofertas a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.link-ofertas a:hover{
+    background-color: rgb(227, 227, 227);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--cor--principal);
+    background-image: url(img/img/rodape.png);
+    background-repeat: no-repeat;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 20px;
+}
