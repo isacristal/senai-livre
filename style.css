@@ -16,7 +16,7 @@
     
 }
 
-header {
+header{
     background-color: var(--cor--principal);
     
     
@@ -226,6 +226,7 @@ footer{
     padding: 20px;
 }
 
+<<<<<<< HEAD
 #logo img{
     width: 7%;
 }
@@ -260,3 +261,49 @@ footer{
 
 }
 
+=======
+#header img{
+    width: 10%;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.inscreva-se{
+    text-align: center;
+}
+
+#form{
+padding: 15px;
+}
+
+#form #form-formulario input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+}
+#form #form-formulario button{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor--principal);
+    color: var(--cor-branca);
+    border-radius: 10px;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+>>>>>>> 068f462d921e95a694ba259018b75f6d7aab1a81
