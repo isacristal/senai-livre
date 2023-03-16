@@ -225,3 +225,38 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     padding: 20px;
 }
+
+#logo img{
+    width: 7%;
+}
+
+#informacoes-cadastro h1{
+    text-align: center;
+    padding: 15px;
+}
+
+.cadastro{
+    text-align: center;
+    padding: 20px;
+}
+
+.cadastro div input{
+    padding: 3px;
+    width: 358px;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.cadastro div button{
+    background-color: var(--cor--valor);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+
+}
+
