@@ -16,7 +16,7 @@
     
 }
 
-header {
+header{
     background-color: var(--cor--principal);
 }
 
@@ -223,3 +223,85 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     padding: 20px;
 }
+
+<<<<<<< HEAD
+#logo img{
+    width: 7%;
+}
+
+#informacoes-cadastro h1{
+    text-align: center;
+    padding: 15px;
+}
+
+.cadastro{
+    text-align: center;
+    padding: 20px;
+}
+
+.cadastro div input{
+    padding: 3px;
+    width: 358px;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.cadastro div button{
+    background-color: var(--cor--valor);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+=======
+#header img{
+    width: 10%;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.inscreva-se{
+    text-align: center;
+}
+
+#form{
+padding: 15px;
+}
+
+#form #form-formulario input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+}
+#form #form-formulario button{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor--principal);
+    color: var(--cor-branca);
+    border-radius: 10px;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+>>>>>>> 068f462d921e95a694ba259018b75f6d7aab1a81
