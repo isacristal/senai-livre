@@ -267,8 +267,9 @@ footer{
 
 #logo nav a{
     text-decoration: none;
+    color: var(--cor--textos);
     padding: 10px 30px;
-    background-color: #eead2d ;
+    background-color: #eead2d;
     border: none;
     border-radius: 15px;
     margin: 20px;
@@ -366,4 +367,43 @@ footer{
 
 #form-formulario button:hover{
     background-color: var(--cor--principal);
+}
+
+/* contatos */
+/* contatos */
+#sessao-contatos h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+}
+
+#contate-nos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 25px;
+}
+
+#contate-nos .cinza{
+    opacity: 0.6;
+}
+
+#batata{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+#batata i{
+    font-size: 50px;
+    color: black;
+}
+
+#batata i:hover{
+    opacity: 0.5;
+}
+
+#batata .textinho{
+    padding: 10px;
 }
