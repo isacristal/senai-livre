@@ -269,6 +269,7 @@ footer{
     text-decoration: none;
     padding: 10px 30px;
     background-color: #eead2d ;
+    color: var(--cor--textos);
     border: none;
     border-radius: 15px;
     margin: 20px;
@@ -415,4 +416,14 @@ footer{
 .imagemtop{
     width: 120px;
     height: 90px;
+}
+
+#paises{
+    width: 420px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+  
 }
