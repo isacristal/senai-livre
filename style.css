@@ -408,7 +408,55 @@ footer{
     padding: 10px;
 }
 
-#paises{
+/* ofertas-do-dia */
+/* Ofertas do dia */
+#ofertas-ofertas {
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#ofertas-ofertas div {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 120px;
+    padding: 10px;
+}
+
+#ofertas-ofertas div button {
+    background-color: var(--cor--ofertas);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+
+#ofertas-ofertas div button:hover{
+    cursor: pointer;
+}
+
+#ofertas-ofertas div .parcela{
+    color: var(--cor--valor-parc);
+    font-size: 0.8em;
+}
+
+#ofertas-ofertas div .preco{
+    font-size: 23px;
+}
+
+#ofertas-ofertas div .nome{
+    color: black;
+    opacity: 0.6;
+} 
+
+.imagemtop{
+    width: 120px;
+    height: 90px;
+}
+
+#paises {
     width: 420px;
     padding: 10px;
     border: 1px solid #ddd;
