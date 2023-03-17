@@ -367,6 +367,7 @@ footer{
 
 #form-formulario button:hover{
     background-color: var(--cor--principal);
+<<<<<<< HEAD
 }
 
 #paises{
@@ -378,3 +379,6 @@ footer{
     font-size: 1em;
   
 }
+=======
+}
+>>>>>>> fa40e1892dc4d14dcef0cb20bd38e981280b3abb
