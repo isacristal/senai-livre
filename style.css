@@ -18,8 +18,6 @@
 
 header{
     background-color: var(--cor--principal);
-    
-    
 }
 
 .primeiro{
@@ -30,10 +28,29 @@ header{
     
 }
 
+.primeiro nav {
+    padding-right: 30px;
+}
+
 .primeiro nav a{
     text-decoration: none;
     color: black;
     padding: 0px 15px;
+}
+
+.hamburguer {
+    position: absolute;
+    top: 65px;
+    right: 14px;
+    cursor: pointer;
+}
+
+#tres-pontos{
+    display: none;
+}
+
+#tres-pontos:checked ~ .segundo{
+    height: 160px;
 }
 
 .pesquisar{
@@ -61,8 +78,15 @@ header{
 
 .segundo{
     display: flex;
-    padding: 15px;
+    overflow: auto;
+    height: 0px;
+    padding: 0 15px;
+    transition: all 0.5s;
     
+}
+
+.segundo div {
+    padding-top: 20px;
 }
 
 .segundo button{
@@ -71,8 +95,16 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 0px 38px;
+    opacity: 0.6;
+    transition: 0.6s;
 
 }
+
+.segundo button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
 
 .segundo p{
     margin: 0px 38px; 
@@ -127,7 +159,6 @@ main h3{
 .desconto{
     display: flex;
     padding: 15px;
-    
 }
 
 .desconto button{
@@ -136,7 +167,6 @@ main h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 0px 20px;
-
 }
 
 .desconto p{
@@ -148,7 +178,7 @@ main h3{
     text-align: center;
 }
 
-/* promoções */
+    /* promoções */
 #promocoes{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -212,8 +242,8 @@ main h3{
     background-color: rgb(227, 227, 227);
 }
 
-/* footer */
 
+    /* footer */
 footer{
     background-color: var(--cor--principal);
     background-image: url(img/img/rodape.png);
@@ -227,8 +257,30 @@ footer{
 }
 
 
+<<<<<<< HEAD
+=======
+/* registro */
+/* registro */
+>>>>>>> 37ce0e8537cf1db169a922191ed3034ee1842bd3
 #logo img{
     width: 7%;
+    padding: 10px 0px 0px 15px;
+    
+}
+
+#logo nav a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #eead2d ;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #informacoes-cadastro h1{
@@ -236,11 +288,15 @@ footer{
     padding: 15px;
 }
 
-.cadastro{
-    text-align: center;
-    padding: 20px;
+.container{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 .cadastro div input{
     padding: 3px;
     width: 358px;
@@ -283,27 +339,83 @@ padding: 15px;
 }
 
 #form #form-formulario input{
+=======
+.container label {
+>>>>>>> 37ce0e8537cf1db169a922191ed3034ee1842bd3
     display: block;
-    padding: 8px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-    border-radius: 10px;
-    width: 350px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-#form #form-formulario button{
-    padding: 8px;
-    border: none;
-    background-color: var(--cor--principal);
-    color: var(--cor-branca);
+
+.container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    width: 350px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.container button{
+    background-color: #eead2d;
+    color: var(--cor--textos);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
     cursor: pointer;
 }
 
+.container button:hover{
+    background-color: var(--cor--principal);
+}
 
 
+/* login */
+/* login */
+#form h1{
+    text-align: center;
+    padding: 15px;
+}
 
+#form-formulario {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
 
+#form-formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+<<<<<<< HEAD
 
+=======
+#form-formulario input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+#form-formulario button{
+    background-color: #eead2d;
+    color: var(--cor--textos);
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#form-formulario button:hover{
+    background-color: var(--cor--principal);
+}
+>>>>>>> 37ce0e8537cf1db169a922191ed3034ee1842bd3
