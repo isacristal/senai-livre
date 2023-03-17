@@ -13,7 +13,7 @@
 
 .primeiro img{
     width: 10%;
-    
+   
 }
 
 header{
@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    
+   
 }
 
 .primeiro nav {
@@ -82,7 +82,7 @@ header{
     height: 0px;
     padding: 0 15px;
     transition: all 0.5s;
-    
+   
 }
 
 .segundo div {
@@ -107,7 +107,7 @@ header{
 
 
 .segundo p{
-    margin: 0px 38px; 
+    margin: 0px 38px;
 }
 
 
@@ -170,7 +170,7 @@ main h3{
 }
 
 .desconto p{
-    margin: 0px 50px; 
+    margin: 0px 50px;
     text-align: center;
 }
 
@@ -257,21 +257,19 @@ footer{
 }
 
 
-<<<<<<< HEAD
-=======
 /* registro */
 /* registro */
->>>>>>> 37ce0e8537cf1db169a922191ed3034ee1842bd3
 #logo img{
     width: 7%;
     padding: 10px 0px 0px 15px;
-    
+   
 }
 
 #logo nav a{
     text-decoration: none;
     padding: 10px 30px;
     background-color: #eead2d ;
+    color: var(--cor--textos);
     border: none;
     border-radius: 15px;
     margin: 20px;
@@ -296,52 +294,7 @@ footer{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< HEAD
-.cadastro div input{
-    padding: 3px;
-    width: 358px;
-    border-radius: 15px;
-    border: none;
-    border-bottom: 1px solid black;
-}
-
-.cadastro div button{
-    background-color: var(--cor--valor);
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 15px;
-    width: 100px;
-    cursor: pointer;
-    outline: none;
-
-}
-
-
-#header img{
-    width: 10%;
-
-}
-
-#header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 15px;
-}
-
-.inscreva-se{
-    text-align: center;
-}
-
-#form{
-padding: 15px;
-}
-
-#form #form-formulario input{
-=======
 .container label {
->>>>>>> 37ce0e8537cf1db169a922191ed3034ee1842bd3
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
@@ -392,9 +345,6 @@ padding: 15px;
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
 #form-formulario input{
     width: 100%;
     padding: 10px;
@@ -418,4 +368,13 @@ padding: 15px;
 #form-formulario button:hover{
     background-color: var(--cor--principal);
 }
->>>>>>> 37ce0e8537cf1db169a922191ed3034ee1842bd3
+
+#paises{
+    width: 420px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+  
+}
