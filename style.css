@@ -407,3 +407,12 @@ footer{
 #batata .textinho{
     padding: 10px;
 }
+
+#paises{
+    width: 420px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
